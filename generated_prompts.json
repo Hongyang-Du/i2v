@@ -1,0 +1,677 @@
+{
+  "1": {
+    "image_prompt": "first_frames/1.jpg",
+    "camera_motion": "slide sideways across the room, then swing around the room",
+    "text_prompt": "A realistic continuation of the reference indoor scene. Everything must remain completely static: no moving people, no shifting objects, and no dynamic elements. All furniture and geometry must stay identical. Only the camera is allowed to move. Render physically accurate multi-step camera motion.  Camera motion: slide sideways across the room, then swing around the room."
+  },
+  "10": {
+    "image_prompt": "first_frames/10.jpg",
+    "camera_motion": "circle around the main object, then swing around the room, followed by roll gently to one side",
+    "text_prompt": "A realistic continuation of the reference indoor scene. Everything must remain completely static: no moving people, no shifting objects, and no dynamic elements. All furniture and geometry must stay identical. Only the camera is allowed to move. Render physically accurate multi-step camera motion.  Camera motion: circle around the main object, then swing around the room, followed by roll gently to one side."
+  },
+  "100": {
+    "image_prompt": "first_frames/100.jpg",
+    "camera_motion": "slide sideways across the room, then look around the environment, followed by pull back away from the scene",
+    "text_prompt": "A realistic continuation of the reference indoor scene. Everything must remain completely static: no moving people, no shifting objects, and no dynamic elements. All furniture and geometry must stay identical. Only the camera is allowed to move. Render physically accurate multi-step camera motion.  Camera motion: slide sideways across the room, then look around the environment, followed by pull back away from the scene."
+  },
+  "101": {
+    "image_prompt": "first_frames/101.jpg",
+    "camera_motion": "pivot around the viewpoint, then swing around the room",
+    "text_prompt": "A realistic continuation of the reference indoor scene. Everything must remain completely static: no moving people, no shifting objects, and no dynamic elements. All furniture and geometry must stay identical. Only the camera is allowed to move. Render physically accurate multi-step camera motion.  Camera motion: pivot around the viewpoint, then swing around the room."
+  },
+  "102": {
+    "image_prompt": "first_frames/102.jpg",
+    "camera_motion": "circle around the main object, then roll gently to one side",
+    "text_prompt": "A realistic continuation of the reference indoor scene. Everything must remain completely static: no moving people, no shifting objects, and no dynamic elements. All furniture and geometry must stay identical. Only the camera is allowed to move. Render physically accurate multi-step camera motion.  Camera motion: circle around the main object, then roll gently to one side."
+  },
+  "103": {
+    "image_prompt": "first_frames/103.jpg",
+    "camera_motion": "glide toward the room center, then push forward into the scene",
+    "text_prompt": "A realistic continuation of the reference indoor scene. Everything must remain completely static: no moving people, no shifting objects, and no dynamic elements. All furniture and geometry must stay identical. Only the camera is allowed to move. Render physically accurate multi-step camera motion.  Camera motion: glide toward the room center, then push forward into the scene."
+  },
+  "104": {
+    "image_prompt": "first_frames/104.jpg",
+    "camera_motion": "glide toward the room center, then drift across the space",
+    "text_prompt": "A realistic continuation of the reference indoor scene. Everything must remain completely static: no moving people, no shifting objects, and no dynamic elements. All furniture and geometry must stay identical. Only the camera is allowed to move. Render physically accurate multi-step camera motion.  Camera motion: glide toward the room center, then drift across the space."
+  },
+  "105": {
+    "image_prompt": "first_frames/105.jpg",
+    "camera_motion": "push forward into the scene, then pan across the room, followed by orbit around the scene",
+    "text_prompt": "A realistic continuation of the reference indoor scene. Everything must remain completely static: no moving people, no shifting objects, and no dynamic elements. All furniture and geometry must stay identical. Only the camera is allowed to move. Render physically accurate multi-step camera motion.  Camera motion: push forward into the scene, then pan across the room, followed by orbit around the scene."
+  },
+  "106": {
+    "image_prompt": "first_frames/106.jpg",
+    "camera_motion": "pan toward the main subject, then arc around the center of the room, followed by shift through the foreground",
+    "text_prompt": "A realistic continuation of the reference indoor scene. Everything must remain completely static: no moving people, no shifting objects, and no dynamic elements. All furniture and geometry must stay identical. Only the camera is allowed to move. Render physically accurate multi-step camera motion.  Camera motion: pan toward the main subject, then arc around the center of the room, followed by shift through the foreground."
+  },
+  "107": {
+    "image_prompt": "first_frames/107.jpg",
+    "camera_motion": "look around the environment, then move diagonally through the space",
+    "text_prompt": "A realistic continuation of the reference indoor scene. Everything must remain completely static: no moving people, no shifting objects, and no dynamic elements. All furniture and geometry must stay identical. Only the camera is allowed to move. Render physically accurate multi-step camera motion.  Camera motion: look around the environment, then move diagonally through the space."
+  },
+  "108": {
+    "image_prompt": "first_frames/108.jpg",
+    "camera_motion": "orbit around the scene, then pan across the room",
+    "text_prompt": "A realistic continuation of the reference indoor scene. Everything must remain completely static: no moving people, no shifting objects, and no dynamic elements. All furniture and geometry must stay identical. Only the camera is allowed to move. Render physically accurate multi-step camera motion.  Camera motion: orbit around the scene, then pan across the room."
+  },
+  "109": {
+    "image_prompt": "first_frames/109.jpg",
+    "camera_motion": "push forward into the scene, then swing around the room",
+    "text_prompt": "A realistic continuation of the reference indoor scene. Everything must remain completely static: no moving people, no shifting objects, and no dynamic elements. All furniture and geometry must stay identical. Only the camera is allowed to move. Render physically accurate multi-step camera motion.  Camera motion: push forward into the scene, then swing around the room."
+  },
+  "11": {
+    "image_prompt": "first_frames/11.jpg",
+    "camera_motion": "scan across the shelves, then move diagonally through the space",
+    "text_prompt": "A realistic continuation of the reference indoor scene. Everything must remain completely static: no moving people, no shifting objects, and no dynamic elements. All furniture and geometry must stay identical. Only the camera is allowed to move. Render physically accurate multi-step camera motion.  Camera motion: scan across the shelves, then move diagonally through the space."
+  },
+  "110": {
+    "image_prompt": "first_frames/110.jpg",
+    "camera_motion": "scan across the shelves, then look around the environment, followed by pull back away from the scene",
+    "text_prompt": "A realistic continuation of the reference indoor scene. Everything must remain completely static: no moving people, no shifting objects, and no dynamic elements. All furniture and geometry must stay identical. Only the camera is allowed to move. Render physically accurate multi-step camera motion.  Camera motion: scan across the shelves, then look around the environment, followed by pull back away from the scene."
+  },
+  "111": {
+    "image_prompt": "first_frames/111.jpg",
+    "camera_motion": "drift across the space, then pivot around the viewpoint",
+    "text_prompt": "A realistic continuation of the reference indoor scene. Everything must remain completely static: no moving people, no shifting objects, and no dynamic elements. All furniture and geometry must stay identical. Only the camera is allowed to move. Render physically accurate multi-step camera motion.  Camera motion: drift across the space, then pivot around the viewpoint."
+  },
+  "112": {
+    "image_prompt": "first_frames/112.jpg",
+    "camera_motion": "scan across the shelves, then shift through the foreground",
+    "text_prompt": "A realistic continuation of the reference indoor scene. Everything must remain completely static: no moving people, no shifting objects, and no dynamic elements. All furniture and geometry must stay identical. Only the camera is allowed to move. Render physically accurate multi-step camera motion.  Camera motion: scan across the shelves, then shift through the foreground."
+  },
+  "113": {
+    "image_prompt": "first_frames/113.jpg",
+    "camera_motion": "orbit around the scene, then pivot around the viewpoint",
+    "text_prompt": "A realistic continuation of the reference indoor scene. Everything must remain completely static: no moving people, no shifting objects, and no dynamic elements. All furniture and geometry must stay identical. Only the camera is allowed to move. Render physically accurate multi-step camera motion.  Camera motion: orbit around the scene, then pivot around the viewpoint."
+  },
+  "114": {
+    "image_prompt": "first_frames/114.jpg",
+    "camera_motion": "orbit around the scene, then circle around the main object, followed by move diagonally through the space",
+    "text_prompt": "A realistic continuation of the reference indoor scene. Everything must remain completely static: no moving people, no shifting objects, and no dynamic elements. All furniture and geometry must stay identical. Only the camera is allowed to move. Render physically accurate multi-step camera motion.  Camera motion: orbit around the scene, then circle around the main object, followed by move diagonally through the space."
+  },
+  "115": {
+    "image_prompt": "first_frames/115.jpg",
+    "camera_motion": "orbit around the scene, then slide sideways across the room",
+    "text_prompt": "A realistic continuation of the reference indoor scene. Everything must remain completely static: no moving people, no shifting objects, and no dynamic elements. All furniture and geometry must stay identical. Only the camera is allowed to move. Render physically accurate multi-step camera motion.  Camera motion: orbit around the scene, then slide sideways across the room."
+  },
+  "116": {
+    "image_prompt": "first_frames/116.jpg",
+    "camera_motion": "scan across the shelves, then pivot around the viewpoint",
+    "text_prompt": "A realistic continuation of the reference indoor scene. Everything must remain completely static: no moving people, no shifting objects, and no dynamic elements. All furniture and geometry must stay identical. Only the camera is allowed to move. Render physically accurate multi-step camera motion.  Camera motion: scan across the shelves, then pivot around the viewpoint."
+  },
+  "117": {
+    "image_prompt": "first_frames/117.jpg",
+    "camera_motion": "roll gently to one side, then arc around the center of the room",
+    "text_prompt": "A realistic continuation of the reference indoor scene. Everything must remain completely static: no moving people, no shifting objects, and no dynamic elements. All furniture and geometry must stay identical. Only the camera is allowed to move. Render physically accurate multi-step camera motion.  Camera motion: roll gently to one side, then arc around the center of the room."
+  },
+  "118": {
+    "image_prompt": "first_frames/118.jpg",
+    "camera_motion": "circle around the main object, then pull back away from the scene",
+    "text_prompt": "A realistic continuation of the reference indoor scene. Everything must remain completely static: no moving people, no shifting objects, and no dynamic elements. All furniture and geometry must stay identical. Only the camera is allowed to move. Render physically accurate multi-step camera motion.  Camera motion: circle around the main object, then pull back away from the scene."
+  },
+  "119": {
+    "image_prompt": "first_frames/119.jpg",
+    "camera_motion": "move laterally along the furniture line, then circle around the main object, followed by scan across the shelves",
+    "text_prompt": "A realistic continuation of the reference indoor scene. Everything must remain completely static: no moving people, no shifting objects, and no dynamic elements. All furniture and geometry must stay identical. Only the camera is allowed to move. Render physically accurate multi-step camera motion.  Camera motion: move laterally along the furniture line, then circle around the main object, followed by scan across the shelves."
+  },
+  "12": {
+    "image_prompt": "first_frames/12.jpg",
+    "camera_motion": "arc around the center of the room, then scan across the shelves",
+    "text_prompt": "A realistic continuation of the reference indoor scene. Everything must remain completely static: no moving people, no shifting objects, and no dynamic elements. All furniture and geometry must stay identical. Only the camera is allowed to move. Render physically accurate multi-step camera motion.  Camera motion: arc around the center of the room, then scan across the shelves."
+  },
+  "120": {
+    "image_prompt": "first_frames/120.jpg",
+    "camera_motion": "shift through the foreground, then scan across the shelves",
+    "text_prompt": "A realistic continuation of the reference indoor scene. Everything must remain completely static: no moving people, no shifting objects, and no dynamic elements. All furniture and geometry must stay identical. Only the camera is allowed to move. Render physically accurate multi-step camera motion.  Camera motion: shift through the foreground, then scan across the shelves."
+  },
+  "121": {
+    "image_prompt": "first_frames/121.jpg",
+    "camera_motion": "pan across the room, then arc around the center of the room, followed by drift across the space",
+    "text_prompt": "A realistic continuation of the reference indoor scene. Everything must remain completely static: no moving people, no shifting objects, and no dynamic elements. All furniture and geometry must stay identical. Only the camera is allowed to move. Render physically accurate multi-step camera motion.  Camera motion: pan across the room, then arc around the center of the room, followed by drift across the space."
+  },
+  "122": {
+    "image_prompt": "first_frames/122.jpg",
+    "camera_motion": "shift through the foreground, then glide toward the room center",
+    "text_prompt": "A realistic continuation of the reference indoor scene. Everything must remain completely static: no moving people, no shifting objects, and no dynamic elements. All furniture and geometry must stay identical. Only the camera is allowed to move. Render physically accurate multi-step camera motion.  Camera motion: shift through the foreground, then glide toward the room center."
+  },
+  "123": {
+    "image_prompt": "first_frames/123.jpg",
+    "camera_motion": "look around the environment, then circle around the main object",
+    "text_prompt": "A realistic continuation of the reference indoor scene. Everything must remain completely static: no moving people, no shifting objects, and no dynamic elements. All furniture and geometry must stay identical. Only the camera is allowed to move. Render physically accurate multi-step camera motion.  Camera motion: look around the environment, then circle around the main object."
+  },
+  "124": {
+    "image_prompt": "first_frames/124.jpg",
+    "camera_motion": "move diagonally through the space, then orbit around the scene",
+    "text_prompt": "A realistic continuation of the reference indoor scene. Everything must remain completely static: no moving people, no shifting objects, and no dynamic elements. All furniture and geometry must stay identical. Only the camera is allowed to move. Render physically accurate multi-step camera motion.  Camera motion: move diagonally through the space, then orbit around the scene."
+  },
+  "125": {
+    "image_prompt": "first_frames/125.jpg",
+    "camera_motion": "circle around the main object, then push forward into the scene",
+    "text_prompt": "A realistic continuation of the reference indoor scene. Everything must remain completely static: no moving people, no shifting objects, and no dynamic elements. All furniture and geometry must stay identical. Only the camera is allowed to move. Render physically accurate multi-step camera motion.  Camera motion: circle around the main object, then push forward into the scene."
+  },
+  "126": {
+    "image_prompt": "first_frames/126.jpg",
+    "camera_motion": "arc around the center of the room, then look around the environment",
+    "text_prompt": "A realistic continuation of the reference indoor scene. Everything must remain completely static: no moving people, no shifting objects, and no dynamic elements. All furniture and geometry must stay identical. Only the camera is allowed to move. Render physically accurate multi-step camera motion.  Camera motion: arc around the center of the room, then look around the environment."
+  },
+  "127": {
+    "image_prompt": "first_frames/127.jpg",
+    "camera_motion": "pivot around the viewpoint, then pull back away from the scene",
+    "text_prompt": "A realistic continuation of the reference indoor scene. Everything must remain completely static: no moving people, no shifting objects, and no dynamic elements. All furniture and geometry must stay identical. Only the camera is allowed to move. Render physically accurate multi-step camera motion.  Camera motion: pivot around the viewpoint, then pull back away from the scene."
+  },
+  "128": {
+    "image_prompt": "first_frames/128.jpg",
+    "camera_motion": "shift through the foreground, then slide sideways across the room",
+    "text_prompt": "A realistic continuation of the reference indoor scene. Everything must remain completely static: no moving people, no shifting objects, and no dynamic elements. All furniture and geometry must stay identical. Only the camera is allowed to move. Render physically accurate multi-step camera motion.  Camera motion: shift through the foreground, then slide sideways across the room."
+  },
+  "129": {
+    "image_prompt": "first_frames/129.jpg",
+    "camera_motion": "move diagonally through the space, then orbit around the scene",
+    "text_prompt": "A realistic continuation of the reference indoor scene. Everything must remain completely static: no moving people, no shifting objects, and no dynamic elements. All furniture and geometry must stay identical. Only the camera is allowed to move. Render physically accurate multi-step camera motion.  Camera motion: move diagonally through the space, then orbit around the scene."
+  },
+  "13": {
+    "image_prompt": "first_frames/13.jpg",
+    "camera_motion": "arc around the center of the room, then pan across the room, followed by circle around the main object",
+    "text_prompt": "A realistic continuation of the reference indoor scene. Everything must remain completely static: no moving people, no shifting objects, and no dynamic elements. All furniture and geometry must stay identical. Only the camera is allowed to move. Render physically accurate multi-step camera motion.  Camera motion: arc around the center of the room, then pan across the room, followed by circle around the main object."
+  },
+  "130": {
+    "image_prompt": "first_frames/130.jpg",
+    "camera_motion": "circle around the main object, then circle around the main object",
+    "text_prompt": "A realistic continuation of the reference indoor scene. Everything must remain completely static: no moving people, no shifting objects, and no dynamic elements. All furniture and geometry must stay identical. Only the camera is allowed to move. Render physically accurate multi-step camera motion.  Camera motion: circle around the main object, then circle around the main object."
+  },
+  "131": {
+    "image_prompt": "first_frames/131.jpg",
+    "camera_motion": "arc around the center of the room, then pan across the room",
+    "text_prompt": "A realistic continuation of the reference indoor scene. Everything must remain completely static: no moving people, no shifting objects, and no dynamic elements. All furniture and geometry must stay identical. Only the camera is allowed to move. Render physically accurate multi-step camera motion.  Camera motion: arc around the center of the room, then pan across the room."
+  },
+  "132": {
+    "image_prompt": "first_frames/132.jpg",
+    "camera_motion": "pivot around the viewpoint, then pan toward the main subject, followed by swing around the room",
+    "text_prompt": "A realistic continuation of the reference indoor scene. Everything must remain completely static: no moving people, no shifting objects, and no dynamic elements. All furniture and geometry must stay identical. Only the camera is allowed to move. Render physically accurate multi-step camera motion.  Camera motion: pivot around the viewpoint, then pan toward the main subject, followed by swing around the room."
+  },
+  "133": {
+    "image_prompt": "first_frames/133.jpg",
+    "camera_motion": "pan toward the main subject, then arc around the center of the room, followed by pivot around the viewpoint",
+    "text_prompt": "A realistic continuation of the reference indoor scene. Everything must remain completely static: no moving people, no shifting objects, and no dynamic elements. All furniture and geometry must stay identical. Only the camera is allowed to move. Render physically accurate multi-step camera motion.  Camera motion: pan toward the main subject, then arc around the center of the room, followed by pivot around the viewpoint."
+  },
+  "134": {
+    "image_prompt": "first_frames/134.jpg",
+    "camera_motion": "orbit around the scene, then pull back away from the scene, followed by look around the environment",
+    "text_prompt": "A realistic continuation of the reference indoor scene. Everything must remain completely static: no moving people, no shifting objects, and no dynamic elements. All furniture and geometry must stay identical. Only the camera is allowed to move. Render physically accurate multi-step camera motion.  Camera motion: orbit around the scene, then pull back away from the scene, followed by look around the environment."
+  },
+  "135": {
+    "image_prompt": "first_frames/135.jpg",
+    "camera_motion": "glide toward the room center, then move laterally along the furniture line",
+    "text_prompt": "A realistic continuation of the reference indoor scene. Everything must remain completely static: no moving people, no shifting objects, and no dynamic elements. All furniture and geometry must stay identical. Only the camera is allowed to move. Render physically accurate multi-step camera motion.  Camera motion: glide toward the room center, then move laterally along the furniture line."
+  },
+  "14": {
+    "image_prompt": "first_frames/14.jpg",
+    "camera_motion": "pull back away from the scene, then swing around the room",
+    "text_prompt": "A realistic continuation of the reference indoor scene. Everything must remain completely static: no moving people, no shifting objects, and no dynamic elements. All furniture and geometry must stay identical. Only the camera is allowed to move. Render physically accurate multi-step camera motion.  Camera motion: pull back away from the scene, then swing around the room."
+  },
+  "15": {
+    "image_prompt": "first_frames/15.jpg",
+    "camera_motion": "glide toward the room center, then swing around the room, followed by swing around the room",
+    "text_prompt": "A realistic continuation of the reference indoor scene. Everything must remain completely static: no moving people, no shifting objects, and no dynamic elements. All furniture and geometry must stay identical. Only the camera is allowed to move. Render physically accurate multi-step camera motion.  Camera motion: glide toward the room center, then swing around the room, followed by swing around the room."
+  },
+  "16": {
+    "image_prompt": "first_frames/16.jpg",
+    "camera_motion": "arc around the center of the room, then scan across the shelves, followed by drift across the space",
+    "text_prompt": "A realistic continuation of the reference indoor scene. Everything must remain completely static: no moving people, no shifting objects, and no dynamic elements. All furniture and geometry must stay identical. Only the camera is allowed to move. Render physically accurate multi-step camera motion.  Camera motion: arc around the center of the room, then scan across the shelves, followed by drift across the space."
+  },
+  "17": {
+    "image_prompt": "first_frames/17.jpg",
+    "camera_motion": "orbit around the scene, then circle around the main object, followed by pan across the room",
+    "text_prompt": "A realistic continuation of the reference indoor scene. Everything must remain completely static: no moving people, no shifting objects, and no dynamic elements. All furniture and geometry must stay identical. Only the camera is allowed to move. Render physically accurate multi-step camera motion.  Camera motion: orbit around the scene, then circle around the main object, followed by pan across the room."
+  },
+  "18": {
+    "image_prompt": "first_frames/18.jpg",
+    "camera_motion": "pan across the room, then orbit around the scene",
+    "text_prompt": "A realistic continuation of the reference indoor scene. Everything must remain completely static: no moving people, no shifting objects, and no dynamic elements. All furniture and geometry must stay identical. Only the camera is allowed to move. Render physically accurate multi-step camera motion.  Camera motion: pan across the room, then orbit around the scene."
+  },
+  "19": {
+    "image_prompt": "first_frames/19.jpg",
+    "camera_motion": "pivot around the viewpoint, then tilt upward toward the ceiling, followed by swing around the room",
+    "text_prompt": "A realistic continuation of the reference indoor scene. Everything must remain completely static: no moving people, no shifting objects, and no dynamic elements. All furniture and geometry must stay identical. Only the camera is allowed to move. Render physically accurate multi-step camera motion.  Camera motion: pivot around the viewpoint, then tilt upward toward the ceiling, followed by swing around the room."
+  },
+  "2": {
+    "image_prompt": "first_frames/2.jpg",
+    "camera_motion": "arc around the center of the room, then swing around the room",
+    "text_prompt": "A realistic continuation of the reference indoor scene. Everything must remain completely static: no moving people, no shifting objects, and no dynamic elements. All furniture and geometry must stay identical. Only the camera is allowed to move. Render physically accurate multi-step camera motion.  Camera motion: arc around the center of the room, then swing around the room."
+  },
+  "20": {
+    "image_prompt": "first_frames/20.jpg",
+    "camera_motion": "orbit around the scene, then circle around the main object",
+    "text_prompt": "A realistic continuation of the reference indoor scene. Everything must remain completely static: no moving people, no shifting objects, and no dynamic elements. All furniture and geometry must stay identical. Only the camera is allowed to move. Render physically accurate multi-step camera motion.  Camera motion: orbit around the scene, then circle around the main object."
+  },
+  "21": {
+    "image_prompt": "first_frames/21.jpg",
+    "camera_motion": "shift through the foreground, then arc around the center of the room, followed by move diagonally through the space",
+    "text_prompt": "A realistic continuation of the reference indoor scene. Everything must remain completely static: no moving people, no shifting objects, and no dynamic elements. All furniture and geometry must stay identical. Only the camera is allowed to move. Render physically accurate multi-step camera motion.  Camera motion: shift through the foreground, then arc around the center of the room, followed by move diagonally through the space."
+  },
+  "22": {
+    "image_prompt": "first_frames/22.jpg",
+    "camera_motion": "orbit around the scene, then scan across the shelves, followed by shift through the foreground",
+    "text_prompt": "A realistic continuation of the reference indoor scene. Everything must remain completely static: no moving people, no shifting objects, and no dynamic elements. All furniture and geometry must stay identical. Only the camera is allowed to move. Render physically accurate multi-step camera motion.  Camera motion: orbit around the scene, then scan across the shelves, followed by shift through the foreground."
+  },
+  "23": {
+    "image_prompt": "first_frames/23.jpg",
+    "camera_motion": "circle around the main object, then push forward into the scene, followed by scan across the shelves",
+    "text_prompt": "A realistic continuation of the reference indoor scene. Everything must remain completely static: no moving people, no shifting objects, and no dynamic elements. All furniture and geometry must stay identical. Only the camera is allowed to move. Render physically accurate multi-step camera motion.  Camera motion: circle around the main object, then push forward into the scene, followed by scan across the shelves."
+  },
+  "24": {
+    "image_prompt": "first_frames/24.jpg",
+    "camera_motion": "pan toward the main subject, then look around the environment",
+    "text_prompt": "A realistic continuation of the reference indoor scene. Everything must remain completely static: no moving people, no shifting objects, and no dynamic elements. All furniture and geometry must stay identical. Only the camera is allowed to move. Render physically accurate multi-step camera motion.  Camera motion: pan toward the main subject, then look around the environment."
+  },
+  "25": {
+    "image_prompt": "first_frames/25.jpg",
+    "camera_motion": "drift across the space, then pan across the room",
+    "text_prompt": "A realistic continuation of the reference indoor scene. Everything must remain completely static: no moving people, no shifting objects, and no dynamic elements. All furniture and geometry must stay identical. Only the camera is allowed to move. Render physically accurate multi-step camera motion.  Camera motion: drift across the space, then pan across the room."
+  },
+  "26": {
+    "image_prompt": "first_frames/26.jpg",
+    "camera_motion": "push forward into the scene, then pan across the room",
+    "text_prompt": "A realistic continuation of the reference indoor scene. Everything must remain completely static: no moving people, no shifting objects, and no dynamic elements. All furniture and geometry must stay identical. Only the camera is allowed to move. Render physically accurate multi-step camera motion.  Camera motion: push forward into the scene, then pan across the room."
+  },
+  "27": {
+    "image_prompt": "first_frames/27.jpg",
+    "camera_motion": "look around the environment, then push forward into the scene",
+    "text_prompt": "A realistic continuation of the reference indoor scene. Everything must remain completely static: no moving people, no shifting objects, and no dynamic elements. All furniture and geometry must stay identical. Only the camera is allowed to move. Render physically accurate multi-step camera motion.  Camera motion: look around the environment, then push forward into the scene."
+  },
+  "28": {
+    "image_prompt": "first_frames/28.jpg",
+    "camera_motion": "drift across the space, then pan toward the main subject",
+    "text_prompt": "A realistic continuation of the reference indoor scene. Everything must remain completely static: no moving people, no shifting objects, and no dynamic elements. All furniture and geometry must stay identical. Only the camera is allowed to move. Render physically accurate multi-step camera motion.  Camera motion: drift across the space, then pan toward the main subject."
+  },
+  "29": {
+    "image_prompt": "first_frames/29.jpg",
+    "camera_motion": "scan across the shelves, then look around the environment",
+    "text_prompt": "A realistic continuation of the reference indoor scene. Everything must remain completely static: no moving people, no shifting objects, and no dynamic elements. All furniture and geometry must stay identical. Only the camera is allowed to move. Render physically accurate multi-step camera motion.  Camera motion: scan across the shelves, then look around the environment."
+  },
+  "3": {
+    "image_prompt": "first_frames/3.jpg",
+    "camera_motion": "look around the environment, then orbit around the scene, followed by tilt upward toward the ceiling",
+    "text_prompt": "A realistic continuation of the reference indoor scene. Everything must remain completely static: no moving people, no shifting objects, and no dynamic elements. All furniture and geometry must stay identical. Only the camera is allowed to move. Render physically accurate multi-step camera motion.  Camera motion: look around the environment, then orbit around the scene, followed by tilt upward toward the ceiling."
+  },
+  "30": {
+    "image_prompt": "first_frames/30.jpg",
+    "camera_motion": "orbit around the scene, then push forward into the scene",
+    "text_prompt": "A realistic continuation of the reference indoor scene. Everything must remain completely static: no moving people, no shifting objects, and no dynamic elements. All furniture and geometry must stay identical. Only the camera is allowed to move. Render physically accurate multi-step camera motion.  Camera motion: orbit around the scene, then push forward into the scene."
+  },
+  "31": {
+    "image_prompt": "first_frames/31.jpg",
+    "camera_motion": "tilt upward toward the ceiling, then move diagonally through the space",
+    "text_prompt": "A realistic continuation of the reference indoor scene. Everything must remain completely static: no moving people, no shifting objects, and no dynamic elements. All furniture and geometry must stay identical. Only the camera is allowed to move. Render physically accurate multi-step camera motion.  Camera motion: tilt upward toward the ceiling, then move diagonally through the space."
+  },
+  "32": {
+    "image_prompt": "first_frames/32.jpg",
+    "camera_motion": "orbit around the scene, then glide toward the room center, followed by glide toward the room center",
+    "text_prompt": "A realistic continuation of the reference indoor scene. Everything must remain completely static: no moving people, no shifting objects, and no dynamic elements. All furniture and geometry must stay identical. Only the camera is allowed to move. Render physically accurate multi-step camera motion.  Camera motion: orbit around the scene, then glide toward the room center, followed by glide toward the room center."
+  },
+  "33": {
+    "image_prompt": "first_frames/33.jpg",
+    "camera_motion": "tilt downward toward the floor, then shift through the foreground",
+    "text_prompt": "A realistic continuation of the reference indoor scene. Everything must remain completely static: no moving people, no shifting objects, and no dynamic elements. All furniture and geometry must stay identical. Only the camera is allowed to move. Render physically accurate multi-step camera motion.  Camera motion: tilt downward toward the floor, then shift through the foreground."
+  },
+  "34": {
+    "image_prompt": "first_frames/34.jpg",
+    "camera_motion": "drift across the space, then glide toward the room center, followed by swing around the room",
+    "text_prompt": "A realistic continuation of the reference indoor scene. Everything must remain completely static: no moving people, no shifting objects, and no dynamic elements. All furniture and geometry must stay identical. Only the camera is allowed to move. Render physically accurate multi-step camera motion.  Camera motion: drift across the space, then glide toward the room center, followed by swing around the room."
+  },
+  "35": {
+    "image_prompt": "first_frames/35.jpg",
+    "camera_motion": "tilt downward toward the floor, then tilt downward toward the floor, followed by pivot around the viewpoint",
+    "text_prompt": "A realistic continuation of the reference indoor scene. Everything must remain completely static: no moving people, no shifting objects, and no dynamic elements. All furniture and geometry must stay identical. Only the camera is allowed to move. Render physically accurate multi-step camera motion.  Camera motion: tilt downward toward the floor, then tilt downward toward the floor, followed by pivot around the viewpoint."
+  },
+  "36": {
+    "image_prompt": "first_frames/36.jpg",
+    "camera_motion": "swing around the room, then move diagonally through the space",
+    "text_prompt": "A realistic continuation of the reference indoor scene. Everything must remain completely static: no moving people, no shifting objects, and no dynamic elements. All furniture and geometry must stay identical. Only the camera is allowed to move. Render physically accurate multi-step camera motion.  Camera motion: swing around the room, then move diagonally through the space."
+  },
+  "37": {
+    "image_prompt": "first_frames/37.jpg",
+    "camera_motion": "pan across the room, then arc around the center of the room, followed by pan across the room",
+    "text_prompt": "A realistic continuation of the reference indoor scene. Everything must remain completely static: no moving people, no shifting objects, and no dynamic elements. All furniture and geometry must stay identical. Only the camera is allowed to move. Render physically accurate multi-step camera motion.  Camera motion: pan across the room, then arc around the center of the room, followed by pan across the room."
+  },
+  "38": {
+    "image_prompt": "first_frames/38.jpg",
+    "camera_motion": "push forward into the scene, then arc around the center of the room, followed by shift through the foreground",
+    "text_prompt": "A realistic continuation of the reference indoor scene. Everything must remain completely static: no moving people, no shifting objects, and no dynamic elements. All furniture and geometry must stay identical. Only the camera is allowed to move. Render physically accurate multi-step camera motion.  Camera motion: push forward into the scene, then arc around the center of the room, followed by shift through the foreground."
+  },
+  "39": {
+    "image_prompt": "first_frames/39.jpg",
+    "camera_motion": "scan across the shelves, then swing around the room, followed by pivot around the viewpoint",
+    "text_prompt": "A realistic continuation of the reference indoor scene. Everything must remain completely static: no moving people, no shifting objects, and no dynamic elements. All furniture and geometry must stay identical. Only the camera is allowed to move. Render physically accurate multi-step camera motion.  Camera motion: scan across the shelves, then swing around the room, followed by pivot around the viewpoint."
+  },
+  "4": {
+    "image_prompt": "first_frames/4.jpg",
+    "camera_motion": "roll gently to one side, then swing around the room, followed by shift through the foreground",
+    "text_prompt": "A realistic continuation of the reference indoor scene. Everything must remain completely static: no moving people, no shifting objects, and no dynamic elements. All furniture and geometry must stay identical. Only the camera is allowed to move. Render physically accurate multi-step camera motion.  Camera motion: roll gently to one side, then swing around the room, followed by shift through the foreground."
+  },
+  "40": {
+    "image_prompt": "first_frames/40.jpg",
+    "camera_motion": "tilt upward toward the ceiling, then arc around the center of the room",
+    "text_prompt": "A realistic continuation of the reference indoor scene. Everything must remain completely static: no moving people, no shifting objects, and no dynamic elements. All furniture and geometry must stay identical. Only the camera is allowed to move. Render physically accurate multi-step camera motion.  Camera motion: tilt upward toward the ceiling, then arc around the center of the room."
+  },
+  "41": {
+    "image_prompt": "first_frames/41.jpg",
+    "camera_motion": "swing around the room, then pan across the room, followed by swing around the room",
+    "text_prompt": "A realistic continuation of the reference indoor scene. Everything must remain completely static: no moving people, no shifting objects, and no dynamic elements. All furniture and geometry must stay identical. Only the camera is allowed to move. Render physically accurate multi-step camera motion.  Camera motion: swing around the room, then pan across the room, followed by swing around the room."
+  },
+  "42": {
+    "image_prompt": "first_frames/42.jpg",
+    "camera_motion": "pan across the room, then push forward into the scene",
+    "text_prompt": "A realistic continuation of the reference indoor scene. Everything must remain completely static: no moving people, no shifting objects, and no dynamic elements. All furniture and geometry must stay identical. Only the camera is allowed to move. Render physically accurate multi-step camera motion.  Camera motion: pan across the room, then push forward into the scene."
+  },
+  "43": {
+    "image_prompt": "first_frames/43.jpg",
+    "camera_motion": "scan across the shelves, then pan toward the main subject, followed by move diagonally through the space",
+    "text_prompt": "A realistic continuation of the reference indoor scene. Everything must remain completely static: no moving people, no shifting objects, and no dynamic elements. All furniture and geometry must stay identical. Only the camera is allowed to move. Render physically accurate multi-step camera motion.  Camera motion: scan across the shelves, then pan toward the main subject, followed by move diagonally through the space."
+  },
+  "44": {
+    "image_prompt": "first_frames/44.jpg",
+    "camera_motion": "circle around the main object, then glide toward the room center",
+    "text_prompt": "A realistic continuation of the reference indoor scene. Everything must remain completely static: no moving people, no shifting objects, and no dynamic elements. All furniture and geometry must stay identical. Only the camera is allowed to move. Render physically accurate multi-step camera motion.  Camera motion: circle around the main object, then glide toward the room center."
+  },
+  "45": {
+    "image_prompt": "first_frames/45.jpg",
+    "camera_motion": "tilt upward toward the ceiling, then drift across the space",
+    "text_prompt": "A realistic continuation of the reference indoor scene. Everything must remain completely static: no moving people, no shifting objects, and no dynamic elements. All furniture and geometry must stay identical. Only the camera is allowed to move. Render physically accurate multi-step camera motion.  Camera motion: tilt upward toward the ceiling, then drift across the space."
+  },
+  "46": {
+    "image_prompt": "first_frames/46.jpg",
+    "camera_motion": "pivot around the viewpoint, then move diagonally through the space",
+    "text_prompt": "A realistic continuation of the reference indoor scene. Everything must remain completely static: no moving people, no shifting objects, and no dynamic elements. All furniture and geometry must stay identical. Only the camera is allowed to move. Render physically accurate multi-step camera motion.  Camera motion: pivot around the viewpoint, then move diagonally through the space."
+  },
+  "47": {
+    "image_prompt": "first_frames/47.jpg",
+    "camera_motion": "circle around the main object, then shift through the foreground",
+    "text_prompt": "A realistic continuation of the reference indoor scene. Everything must remain completely static: no moving people, no shifting objects, and no dynamic elements. All furniture and geometry must stay identical. Only the camera is allowed to move. Render physically accurate multi-step camera motion.  Camera motion: circle around the main object, then shift through the foreground."
+  },
+  "48": {
+    "image_prompt": "first_frames/48.jpg",
+    "camera_motion": "drift across the space, then tilt downward toward the floor, followed by pan across the room",
+    "text_prompt": "A realistic continuation of the reference indoor scene. Everything must remain completely static: no moving people, no shifting objects, and no dynamic elements. All furniture and geometry must stay identical. Only the camera is allowed to move. Render physically accurate multi-step camera motion.  Camera motion: drift across the space, then tilt downward toward the floor, followed by pan across the room."
+  },
+  "49": {
+    "image_prompt": "first_frames/49.jpg",
+    "camera_motion": "arc around the center of the room, then tilt upward toward the ceiling",
+    "text_prompt": "A realistic continuation of the reference indoor scene. Everything must remain completely static: no moving people, no shifting objects, and no dynamic elements. All furniture and geometry must stay identical. Only the camera is allowed to move. Render physically accurate multi-step camera motion.  Camera motion: arc around the center of the room, then tilt upward toward the ceiling."
+  },
+  "5": {
+    "image_prompt": "first_frames/5.jpg",
+    "camera_motion": "circle around the main object, then drift across the space, followed by drift across the space",
+    "text_prompt": "A realistic continuation of the reference indoor scene. Everything must remain completely static: no moving people, no shifting objects, and no dynamic elements. All furniture and geometry must stay identical. Only the camera is allowed to move. Render physically accurate multi-step camera motion.  Camera motion: circle around the main object, then drift across the space, followed by drift across the space."
+  },
+  "50": {
+    "image_prompt": "first_frames/50.jpg",
+    "camera_motion": "scan across the shelves, then pivot around the viewpoint",
+    "text_prompt": "A realistic continuation of the reference indoor scene. Everything must remain completely static: no moving people, no shifting objects, and no dynamic elements. All furniture and geometry must stay identical. Only the camera is allowed to move. Render physically accurate multi-step camera motion.  Camera motion: scan across the shelves, then pivot around the viewpoint."
+  },
+  "51": {
+    "image_prompt": "first_frames/51.jpg",
+    "camera_motion": "move laterally along the furniture line, then pan toward the main subject, followed by pan toward the main subject",
+    "text_prompt": "A realistic continuation of the reference indoor scene. Everything must remain completely static: no moving people, no shifting objects, and no dynamic elements. All furniture and geometry must stay identical. Only the camera is allowed to move. Render physically accurate multi-step camera motion.  Camera motion: move laterally along the furniture line, then pan toward the main subject, followed by pan toward the main subject."
+  },
+  "52": {
+    "image_prompt": "first_frames/52.jpg",
+    "camera_motion": "tilt upward toward the ceiling, then tilt downward toward the floor, followed by glide toward the room center",
+    "text_prompt": "A realistic continuation of the reference indoor scene. Everything must remain completely static: no moving people, no shifting objects, and no dynamic elements. All furniture and geometry must stay identical. Only the camera is allowed to move. Render physically accurate multi-step camera motion.  Camera motion: tilt upward toward the ceiling, then tilt downward toward the floor, followed by glide toward the room center."
+  },
+  "53": {
+    "image_prompt": "first_frames/53.jpg",
+    "camera_motion": "pull back away from the scene, then tilt downward toward the floor",
+    "text_prompt": "A realistic continuation of the reference indoor scene. Everything must remain completely static: no moving people, no shifting objects, and no dynamic elements. All furniture and geometry must stay identical. Only the camera is allowed to move. Render physically accurate multi-step camera motion.  Camera motion: pull back away from the scene, then tilt downward toward the floor."
+  },
+  "54": {
+    "image_prompt": "first_frames/54.jpg",
+    "camera_motion": "move laterally along the furniture line, then look around the environment, followed by shift through the foreground",
+    "text_prompt": "A realistic continuation of the reference indoor scene. Everything must remain completely static: no moving people, no shifting objects, and no dynamic elements. All furniture and geometry must stay identical. Only the camera is allowed to move. Render physically accurate multi-step camera motion.  Camera motion: move laterally along the furniture line, then look around the environment, followed by shift through the foreground."
+  },
+  "55": {
+    "image_prompt": "first_frames/55.jpg",
+    "camera_motion": "pan toward the main subject, then pan toward the main subject",
+    "text_prompt": "A realistic continuation of the reference indoor scene. Everything must remain completely static: no moving people, no shifting objects, and no dynamic elements. All furniture and geometry must stay identical. Only the camera is allowed to move. Render physically accurate multi-step camera motion.  Camera motion: pan toward the main subject, then pan toward the main subject."
+  },
+  "56": {
+    "image_prompt": "first_frames/56.jpg",
+    "camera_motion": "circle around the main object, then orbit around the scene, followed by push forward into the scene",
+    "text_prompt": "A realistic continuation of the reference indoor scene. Everything must remain completely static: no moving people, no shifting objects, and no dynamic elements. All furniture and geometry must stay identical. Only the camera is allowed to move. Render physically accurate multi-step camera motion.  Camera motion: circle around the main object, then orbit around the scene, followed by push forward into the scene."
+  },
+  "57": {
+    "image_prompt": "first_frames/57.jpg",
+    "camera_motion": "push forward into the scene, then tilt downward toward the floor",
+    "text_prompt": "A realistic continuation of the reference indoor scene. Everything must remain completely static: no moving people, no shifting objects, and no dynamic elements. All furniture and geometry must stay identical. Only the camera is allowed to move. Render physically accurate multi-step camera motion.  Camera motion: push forward into the scene, then tilt downward toward the floor."
+  },
+  "58": {
+    "image_prompt": "first_frames/58.jpg",
+    "camera_motion": "pivot around the viewpoint, then look around the environment, followed by swing around the room",
+    "text_prompt": "A realistic continuation of the reference indoor scene. Everything must remain completely static: no moving people, no shifting objects, and no dynamic elements. All furniture and geometry must stay identical. Only the camera is allowed to move. Render physically accurate multi-step camera motion.  Camera motion: pivot around the viewpoint, then look around the environment, followed by swing around the room."
+  },
+  "59": {
+    "image_prompt": "first_frames/59.jpg",
+    "camera_motion": "drift across the space, then swing around the room, followed by orbit around the scene",
+    "text_prompt": "A realistic continuation of the reference indoor scene. Everything must remain completely static: no moving people, no shifting objects, and no dynamic elements. All furniture and geometry must stay identical. Only the camera is allowed to move. Render physically accurate multi-step camera motion.  Camera motion: drift across the space, then swing around the room, followed by orbit around the scene."
+  },
+  "6": {
+    "image_prompt": "first_frames/6.jpg",
+    "camera_motion": "circle around the main object, then pan toward the main subject",
+    "text_prompt": "A realistic continuation of the reference indoor scene. Everything must remain completely static: no moving people, no shifting objects, and no dynamic elements. All furniture and geometry must stay identical. Only the camera is allowed to move. Render physically accurate multi-step camera motion.  Camera motion: circle around the main object, then pan toward the main subject."
+  },
+  "60": {
+    "image_prompt": "first_frames/60.jpg",
+    "camera_motion": "tilt upward toward the ceiling, then pivot around the viewpoint",
+    "text_prompt": "A realistic continuation of the reference indoor scene. Everything must remain completely static: no moving people, no shifting objects, and no dynamic elements. All furniture and geometry must stay identical. Only the camera is allowed to move. Render physically accurate multi-step camera motion.  Camera motion: tilt upward toward the ceiling, then pivot around the viewpoint."
+  },
+  "61": {
+    "image_prompt": "first_frames/61.jpg",
+    "camera_motion": "push forward into the scene, then glide toward the room center, followed by circle around the main object",
+    "text_prompt": "A realistic continuation of the reference indoor scene. Everything must remain completely static: no moving people, no shifting objects, and no dynamic elements. All furniture and geometry must stay identical. Only the camera is allowed to move. Render physically accurate multi-step camera motion.  Camera motion: push forward into the scene, then glide toward the room center, followed by circle around the main object."
+  },
+  "62": {
+    "image_prompt": "first_frames/62.jpg",
+    "camera_motion": "shift through the foreground, then tilt upward toward the ceiling",
+    "text_prompt": "A realistic continuation of the reference indoor scene. Everything must remain completely static: no moving people, no shifting objects, and no dynamic elements. All furniture and geometry must stay identical. Only the camera is allowed to move. Render physically accurate multi-step camera motion.  Camera motion: shift through the foreground, then tilt upward toward the ceiling."
+  },
+  "63": {
+    "image_prompt": "first_frames/63.jpg",
+    "camera_motion": "orbit around the scene, then glide toward the room center, followed by pivot around the viewpoint",
+    "text_prompt": "A realistic continuation of the reference indoor scene. Everything must remain completely static: no moving people, no shifting objects, and no dynamic elements. All furniture and geometry must stay identical. Only the camera is allowed to move. Render physically accurate multi-step camera motion.  Camera motion: orbit around the scene, then glide toward the room center, followed by pivot around the viewpoint."
+  },
+  "64": {
+    "image_prompt": "first_frames/64.jpg",
+    "camera_motion": "scan across the shelves, then tilt upward toward the ceiling, followed by arc around the center of the room",
+    "text_prompt": "A realistic continuation of the reference indoor scene. Everything must remain completely static: no moving people, no shifting objects, and no dynamic elements. All furniture and geometry must stay identical. Only the camera is allowed to move. Render physically accurate multi-step camera motion.  Camera motion: scan across the shelves, then tilt upward toward the ceiling, followed by arc around the center of the room."
+  },
+  "65": {
+    "image_prompt": "first_frames/65.jpg",
+    "camera_motion": "orbit around the scene, then circle around the main object",
+    "text_prompt": "A realistic continuation of the reference indoor scene. Everything must remain completely static: no moving people, no shifting objects, and no dynamic elements. All furniture and geometry must stay identical. Only the camera is allowed to move. Render physically accurate multi-step camera motion.  Camera motion: orbit around the scene, then circle around the main object."
+  },
+  "66": {
+    "image_prompt": "first_frames/66.jpg",
+    "camera_motion": "push forward into the scene, then pan toward the main subject, followed by drift across the space",
+    "text_prompt": "A realistic continuation of the reference indoor scene. Everything must remain completely static: no moving people, no shifting objects, and no dynamic elements. All furniture and geometry must stay identical. Only the camera is allowed to move. Render physically accurate multi-step camera motion.  Camera motion: push forward into the scene, then pan toward the main subject, followed by drift across the space."
+  },
+  "67": {
+    "image_prompt": "first_frames/67.jpg",
+    "camera_motion": "arc around the center of the room, then pan across the room",
+    "text_prompt": "A realistic continuation of the reference indoor scene. Everything must remain completely static: no moving people, no shifting objects, and no dynamic elements. All furniture and geometry must stay identical. Only the camera is allowed to move. Render physically accurate multi-step camera motion.  Camera motion: arc around the center of the room, then pan across the room."
+  },
+  "68": {
+    "image_prompt": "first_frames/68.jpg",
+    "camera_motion": "circle around the main object, then arc around the center of the room, followed by drift across the space",
+    "text_prompt": "A realistic continuation of the reference indoor scene. Everything must remain completely static: no moving people, no shifting objects, and no dynamic elements. All furniture and geometry must stay identical. Only the camera is allowed to move. Render physically accurate multi-step camera motion.  Camera motion: circle around the main object, then arc around the center of the room, followed by drift across the space."
+  },
+  "69": {
+    "image_prompt": "first_frames/69.jpg",
+    "camera_motion": "tilt upward toward the ceiling, then glide toward the room center",
+    "text_prompt": "A realistic continuation of the reference indoor scene. Everything must remain completely static: no moving people, no shifting objects, and no dynamic elements. All furniture and geometry must stay identical. Only the camera is allowed to move. Render physically accurate multi-step camera motion.  Camera motion: tilt upward toward the ceiling, then glide toward the room center."
+  },
+  "7": {
+    "image_prompt": "first_frames/7.jpg",
+    "camera_motion": "roll gently to one side, then pivot around the viewpoint, followed by scan across the shelves",
+    "text_prompt": "A realistic continuation of the reference indoor scene. Everything must remain completely static: no moving people, no shifting objects, and no dynamic elements. All furniture and geometry must stay identical. Only the camera is allowed to move. Render physically accurate multi-step camera motion.  Camera motion: roll gently to one side, then pivot around the viewpoint, followed by scan across the shelves."
+  },
+  "70": {
+    "image_prompt": "first_frames/70.jpg",
+    "camera_motion": "orbit around the scene, then pull back away from the scene",
+    "text_prompt": "A realistic continuation of the reference indoor scene. Everything must remain completely static: no moving people, no shifting objects, and no dynamic elements. All furniture and geometry must stay identical. Only the camera is allowed to move. Render physically accurate multi-step camera motion.  Camera motion: orbit around the scene, then pull back away from the scene."
+  },
+  "71": {
+    "image_prompt": "first_frames/71.jpg",
+    "camera_motion": "circle around the main object, then pull back away from the scene, followed by shift through the foreground",
+    "text_prompt": "A realistic continuation of the reference indoor scene. Everything must remain completely static: no moving people, no shifting objects, and no dynamic elements. All furniture and geometry must stay identical. Only the camera is allowed to move. Render physically accurate multi-step camera motion.  Camera motion: circle around the main object, then pull back away from the scene, followed by shift through the foreground."
+  },
+  "72": {
+    "image_prompt": "first_frames/72.jpg",
+    "camera_motion": "swing around the room, then pan across the room, followed by orbit around the scene",
+    "text_prompt": "A realistic continuation of the reference indoor scene. Everything must remain completely static: no moving people, no shifting objects, and no dynamic elements. All furniture and geometry must stay identical. Only the camera is allowed to move. Render physically accurate multi-step camera motion.  Camera motion: swing around the room, then pan across the room, followed by orbit around the scene."
+  },
+  "73": {
+    "image_prompt": "first_frames/73.jpg",
+    "camera_motion": "slide sideways across the room, then look around the environment",
+    "text_prompt": "A realistic continuation of the reference indoor scene. Everything must remain completely static: no moving people, no shifting objects, and no dynamic elements. All furniture and geometry must stay identical. Only the camera is allowed to move. Render physically accurate multi-step camera motion.  Camera motion: slide sideways across the room, then look around the environment."
+  },
+  "74": {
+    "image_prompt": "first_frames/74.jpg",
+    "camera_motion": "push forward into the scene, then roll gently to one side",
+    "text_prompt": "A realistic continuation of the reference indoor scene. Everything must remain completely static: no moving people, no shifting objects, and no dynamic elements. All furniture and geometry must stay identical. Only the camera is allowed to move. Render physically accurate multi-step camera motion.  Camera motion: push forward into the scene, then roll gently to one side."
+  },
+  "75": {
+    "image_prompt": "first_frames/75.jpg",
+    "camera_motion": "tilt downward toward the floor, then move diagonally through the space",
+    "text_prompt": "A realistic continuation of the reference indoor scene. Everything must remain completely static: no moving people, no shifting objects, and no dynamic elements. All furniture and geometry must stay identical. Only the camera is allowed to move. Render physically accurate multi-step camera motion.  Camera motion: tilt downward toward the floor, then move diagonally through the space."
+  },
+  "76": {
+    "image_prompt": "first_frames/76.jpg",
+    "camera_motion": "arc around the center of the room, then drift across the space",
+    "text_prompt": "A realistic continuation of the reference indoor scene. Everything must remain completely static: no moving people, no shifting objects, and no dynamic elements. All furniture and geometry must stay identical. Only the camera is allowed to move. Render physically accurate multi-step camera motion.  Camera motion: arc around the center of the room, then drift across the space."
+  },
+  "77": {
+    "image_prompt": "first_frames/77.jpg",
+    "camera_motion": "pull back away from the scene, then arc around the center of the room",
+    "text_prompt": "A realistic continuation of the reference indoor scene. Everything must remain completely static: no moving people, no shifting objects, and no dynamic elements. All furniture and geometry must stay identical. Only the camera is allowed to move. Render physically accurate multi-step camera motion.  Camera motion: pull back away from the scene, then arc around the center of the room."
+  },
+  "78": {
+    "image_prompt": "first_frames/78.jpg",
+    "camera_motion": "swing around the room, then roll gently to one side",
+    "text_prompt": "A realistic continuation of the reference indoor scene. Everything must remain completely static: no moving people, no shifting objects, and no dynamic elements. All furniture and geometry must stay identical. Only the camera is allowed to move. Render physically accurate multi-step camera motion.  Camera motion: swing around the room, then roll gently to one side."
+  },
+  "79": {
+    "image_prompt": "first_frames/79.jpg",
+    "camera_motion": "move laterally along the furniture line, then arc around the center of the room, followed by scan across the shelves",
+    "text_prompt": "A realistic continuation of the reference indoor scene. Everything must remain completely static: no moving people, no shifting objects, and no dynamic elements. All furniture and geometry must stay identical. Only the camera is allowed to move. Render physically accurate multi-step camera motion.  Camera motion: move laterally along the furniture line, then arc around the center of the room, followed by scan across the shelves."
+  },
+  "8": {
+    "image_prompt": "first_frames/8.jpg",
+    "camera_motion": "orbit around the scene, then push forward into the scene",
+    "text_prompt": "A realistic continuation of the reference indoor scene. Everything must remain completely static: no moving people, no shifting objects, and no dynamic elements. All furniture and geometry must stay identical. Only the camera is allowed to move. Render physically accurate multi-step camera motion.  Camera motion: orbit around the scene, then push forward into the scene."
+  },
+  "80": {
+    "image_prompt": "first_frames/80.jpg",
+    "camera_motion": "circle around the main object, then pivot around the viewpoint",
+    "text_prompt": "A realistic continuation of the reference indoor scene. Everything must remain completely static: no moving people, no shifting objects, and no dynamic elements. All furniture and geometry must stay identical. Only the camera is allowed to move. Render physically accurate multi-step camera motion.  Camera motion: circle around the main object, then pivot around the viewpoint."
+  },
+  "81": {
+    "image_prompt": "first_frames/81.jpg",
+    "camera_motion": "move laterally along the furniture line, then pivot around the viewpoint",
+    "text_prompt": "A realistic continuation of the reference indoor scene. Everything must remain completely static: no moving people, no shifting objects, and no dynamic elements. All furniture and geometry must stay identical. Only the camera is allowed to move. Render physically accurate multi-step camera motion.  Camera motion: move laterally along the furniture line, then pivot around the viewpoint."
+  },
+  "82": {
+    "image_prompt": "first_frames/82.jpg",
+    "camera_motion": "scan across the shelves, then move diagonally through the space, followed by shift through the foreground",
+    "text_prompt": "A realistic continuation of the reference indoor scene. Everything must remain completely static: no moving people, no shifting objects, and no dynamic elements. All furniture and geometry must stay identical. Only the camera is allowed to move. Render physically accurate multi-step camera motion.  Camera motion: scan across the shelves, then move diagonally through the space, followed by shift through the foreground."
+  },
+  "83": {
+    "image_prompt": "first_frames/83.jpg",
+    "camera_motion": "pan toward the main subject, then circle around the main object",
+    "text_prompt": "A realistic continuation of the reference indoor scene. Everything must remain completely static: no moving people, no shifting objects, and no dynamic elements. All furniture and geometry must stay identical. Only the camera is allowed to move. Render physically accurate multi-step camera motion.  Camera motion: pan toward the main subject, then circle around the main object."
+  },
+  "84": {
+    "image_prompt": "first_frames/84.jpg",
+    "camera_motion": "move laterally along the furniture line, then pan toward the main subject",
+    "text_prompt": "A realistic continuation of the reference indoor scene. Everything must remain completely static: no moving people, no shifting objects, and no dynamic elements. All furniture and geometry must stay identical. Only the camera is allowed to move. Render physically accurate multi-step camera motion.  Camera motion: move laterally along the furniture line, then pan toward the main subject."
+  },
+  "85": {
+    "image_prompt": "first_frames/85.jpg",
+    "camera_motion": "glide toward the room center, then shift through the foreground, followed by arc around the center of the room",
+    "text_prompt": "A realistic continuation of the reference indoor scene. Everything must remain completely static: no moving people, no shifting objects, and no dynamic elements. All furniture and geometry must stay identical. Only the camera is allowed to move. Render physically accurate multi-step camera motion.  Camera motion: glide toward the room center, then shift through the foreground, followed by arc around the center of the room."
+  },
+  "86": {
+    "image_prompt": "first_frames/86.jpg",
+    "camera_motion": "arc around the center of the room, then arc around the center of the room",
+    "text_prompt": "A realistic continuation of the reference indoor scene. Everything must remain completely static: no moving people, no shifting objects, and no dynamic elements. All furniture and geometry must stay identical. Only the camera is allowed to move. Render physically accurate multi-step camera motion.  Camera motion: arc around the center of the room, then arc around the center of the room."
+  },
+  "87": {
+    "image_prompt": "first_frames/87.jpg",
+    "camera_motion": "circle around the main object, then tilt downward toward the floor, followed by pull back away from the scene",
+    "text_prompt": "A realistic continuation of the reference indoor scene. Everything must remain completely static: no moving people, no shifting objects, and no dynamic elements. All furniture and geometry must stay identical. Only the camera is allowed to move. Render physically accurate multi-step camera motion.  Camera motion: circle around the main object, then tilt downward toward the floor, followed by pull back away from the scene."
+  },
+  "88": {
+    "image_prompt": "first_frames/88.jpg",
+    "camera_motion": "tilt downward toward the floor, then glide toward the room center, followed by pan across the room",
+    "text_prompt": "A realistic continuation of the reference indoor scene. Everything must remain completely static: no moving people, no shifting objects, and no dynamic elements. All furniture and geometry must stay identical. Only the camera is allowed to move. Render physically accurate multi-step camera motion.  Camera motion: tilt downward toward the floor, then glide toward the room center, followed by pan across the room."
+  },
+  "89": {
+    "image_prompt": "first_frames/89.jpg",
+    "camera_motion": "slide sideways across the room, then push forward into the scene, followed by pivot around the viewpoint",
+    "text_prompt": "A realistic continuation of the reference indoor scene. Everything must remain completely static: no moving people, no shifting objects, and no dynamic elements. All furniture and geometry must stay identical. Only the camera is allowed to move. Render physically accurate multi-step camera motion.  Camera motion: slide sideways across the room, then push forward into the scene, followed by pivot around the viewpoint."
+  },
+  "9": {
+    "image_prompt": "first_frames/9.jpg",
+    "camera_motion": "push forward into the scene, then push forward into the scene",
+    "text_prompt": "A realistic continuation of the reference indoor scene. Everything must remain completely static: no moving people, no shifting objects, and no dynamic elements. All furniture and geometry must stay identical. Only the camera is allowed to move. Render physically accurate multi-step camera motion.  Camera motion: push forward into the scene, then push forward into the scene."
+  },
+  "90": {
+    "image_prompt": "first_frames/90.jpg",
+    "camera_motion": "slide sideways across the room, then orbit around the scene, followed by tilt upward toward the ceiling",
+    "text_prompt": "A realistic continuation of the reference indoor scene. Everything must remain completely static: no moving people, no shifting objects, and no dynamic elements. All furniture and geometry must stay identical. Only the camera is allowed to move. Render physically accurate multi-step camera motion.  Camera motion: slide sideways across the room, then orbit around the scene, followed by tilt upward toward the ceiling."
+  },
+  "91": {
+    "image_prompt": "first_frames/91.jpg",
+    "camera_motion": "pan toward the main subject, then shift through the foreground, followed by look around the environment",
+    "text_prompt": "A realistic continuation of the reference indoor scene. Everything must remain completely static: no moving people, no shifting objects, and no dynamic elements. All furniture and geometry must stay identical. Only the camera is allowed to move. Render physically accurate multi-step camera motion.  Camera motion: pan toward the main subject, then shift through the foreground, followed by look around the environment."
+  },
+  "92": {
+    "image_prompt": "first_frames/92.jpg",
+    "camera_motion": "scan across the shelves, then look around the environment",
+    "text_prompt": "A realistic continuation of the reference indoor scene. Everything must remain completely static: no moving people, no shifting objects, and no dynamic elements. All furniture and geometry must stay identical. Only the camera is allowed to move. Render physically accurate multi-step camera motion.  Camera motion: scan across the shelves, then look around the environment."
+  },
+  "93": {
+    "image_prompt": "first_frames/93.jpg",
+    "camera_motion": "look around the environment, then move laterally along the furniture line, followed by pan across the room",
+    "text_prompt": "A realistic continuation of the reference indoor scene. Everything must remain completely static: no moving people, no shifting objects, and no dynamic elements. All furniture and geometry must stay identical. Only the camera is allowed to move. Render physically accurate multi-step camera motion.  Camera motion: look around the environment, then move laterally along the furniture line, followed by pan across the room."
+  },
+  "94": {
+    "image_prompt": "first_frames/94.jpg",
+    "camera_motion": "move diagonally through the space, then orbit around the scene",
+    "text_prompt": "A realistic continuation of the reference indoor scene. Everything must remain completely static: no moving people, no shifting objects, and no dynamic elements. All furniture and geometry must stay identical. Only the camera is allowed to move. Render physically accurate multi-step camera motion.  Camera motion: move diagonally through the space, then orbit around the scene."
+  },
+  "95": {
+    "image_prompt": "first_frames/95.jpg",
+    "camera_motion": "shift through the foreground, then look around the environment",
+    "text_prompt": "A realistic continuation of the reference indoor scene. Everything must remain completely static: no moving people, no shifting objects, and no dynamic elements. All furniture and geometry must stay identical. Only the camera is allowed to move. Render physically accurate multi-step camera motion.  Camera motion: shift through the foreground, then look around the environment."
+  },
+  "96": {
+    "image_prompt": "first_frames/96.jpg",
+    "camera_motion": "pivot around the viewpoint, then push forward into the scene, followed by circle around the main object",
+    "text_prompt": "A realistic continuation of the reference indoor scene. Everything must remain completely static: no moving people, no shifting objects, and no dynamic elements. All furniture and geometry must stay identical. Only the camera is allowed to move. Render physically accurate multi-step camera motion.  Camera motion: pivot around the viewpoint, then push forward into the scene, followed by circle around the main object."
+  },
+  "97": {
+    "image_prompt": "first_frames/97.jpg",
+    "camera_motion": "circle around the main object, then scan across the shelves",
+    "text_prompt": "A realistic continuation of the reference indoor scene. Everything must remain completely static: no moving people, no shifting objects, and no dynamic elements. All furniture and geometry must stay identical. Only the camera is allowed to move. Render physically accurate multi-step camera motion.  Camera motion: circle around the main object, then scan across the shelves."
+  },
+  "98": {
+    "image_prompt": "first_frames/98.jpg",
+    "camera_motion": "look around the environment, then arc around the center of the room, followed by scan across the shelves",
+    "text_prompt": "A realistic continuation of the reference indoor scene. Everything must remain completely static: no moving people, no shifting objects, and no dynamic elements. All furniture and geometry must stay identical. Only the camera is allowed to move. Render physically accurate multi-step camera motion.  Camera motion: look around the environment, then arc around the center of the room, followed by scan across the shelves."
+  },
+  "99": {
+    "image_prompt": "first_frames/99.jpg",
+    "camera_motion": "tilt upward toward the ceiling, then drift across the space",
+    "text_prompt": "A realistic continuation of the reference indoor scene. Everything must remain completely static: no moving people, no shifting objects, and no dynamic elements. All furniture and geometry must stay identical. Only the camera is allowed to move. Render physically accurate multi-step camera motion.  Camera motion: tilt upward toward the ceiling, then drift across the space."
+  }
+}

@@ -2,7 +2,7 @@ import torch
 from diffusers import CogVideoXImageToVideoPipeline
 from diffusers.utils import export_to_video, load_image
 
-prompt = "a man pllaying drum"
+prompt = "a man playing drum and camera is moving around him rapidly.python"
 image = load_image(image="input.jpg")
 pipe = CogVideoXImageToVideoPipeline.from_pretrained(
     "THUDM/CogVideoX-5b-I2V",
