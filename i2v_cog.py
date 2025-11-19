@@ -12,7 +12,7 @@ PROMPT_JSON = "generated_prompts.json"
 OUTPUT_DIR = "cog_outputs"
 
 RESUME = True
-MAX_VIDEOS = None   # e.g. 10 to only run first 10 videos
+MAX_VIDEOS = 10   # e.g. 10 to only run first 10 videos
 
 
 def ensure_dir(d):
