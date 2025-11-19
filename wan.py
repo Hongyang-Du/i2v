@@ -9,6 +9,10 @@ device = "cuda"
 model_id = "Wan-AI/Wan2.2-TI2V-5B-Diffusers"
 vae = AutoencoderKLWan.from_pretrained(model_id, subfolder="vae", torch_dtype=torch.float32)
 pipe = WanPipeline.from_pretrained(model_id, vae=vae, torch_dtype=dtype)
+
+help(pipe)
+
+
 pipe.enable_model_cpu_offload()
 pipe.vae.enable_tiling()
 
@@ -26,7 +30,7 @@ negative_prompt = "色调艳丽，过曝，静态，细节模糊不清，字幕�
 
 output = pipe(
     prompt=prompt,
-    image=image,
+    prompt_image=image,
     negative_prompt=negative_prompt,
     height=height,
     width=width,
