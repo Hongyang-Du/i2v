@@ -6,8 +6,8 @@ from pathlib import Path
 # ============================================================
 # CONFIG
 # ============================================================
-FIRST_FRAMES = "first_frames"
-OUTPUT_JSON = "generated_prompts.json"
+FIRST_FRAMES = "../dataset/first_frames"
+OUTPUT_JSON = "../dataset/generated_prompts.json"
 
 PREFIX_PROMPT = (
     "A realistic continuation of the reference indoor scene. "

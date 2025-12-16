@@ -1,70 +1,34 @@
 #!/usr/bin/env python3
 """
-Extract first frames from DL3DV and RealEstate10K videos
-Save them to first_frames directory with numerical ordering
+专门用于 DL3DV 数据集：
+从 DL3DV 的图像序列结构中，递归查找第一帧 (frame_00001.png)，并保存到输出目录。
 """
 import os
 import cv2
 from pathlib import Path
 import argparse
 from tqdm import tqdm
-import shutil
+from typing import Optional
 
-# Configuration
-DL3DV_DIR = "/home/junjie/i2v/datasets/dl3dv"
-REALESTATE_DIR = "/home/junjie/i2v/datasets/realestate10k/videos"
-OUTPUT_DIR = "/home/junjie/i2v/first_frames"
+# ============================================================================
+# ⭐ 配置区域
+# ============================================================================
 
-def extract_first_frame(video_path, output_path, max_retries=3):
-    """
-    Extract the first frame from a video file
+# DL3DV 的根目录（相对于运行脚本的当前目录）
+DL3DV_DIR = "DL3DV-10K/1K"
+# 输出目录（相对于运行脚本的当前目录）
+OUTPUT_DIR = "../dataset/first_frames"
 
-    Args:
-        video_path: Path to input video
-        output_path: Path to save the first frame
-        max_retries: Number of retries if frame extraction fails
+# ============================================================================
+# 辅助函数
+# ============================================================================
 
-    Returns:
-        bool: True if successful, False otherwise
-    """
-    for attempt in range(max_retries):
-        try:
-            # Open video
-            cap = cv2.VideoCapture(str(video_path))
-
-            if not cap.isOpened():
-                if attempt < max_retries - 1:
-                    continue
-                return False
-
-            # Read first frame
-            ret, frame = cap.read()
-            cap.release()
-
-            if not ret or frame is None:
-                if attempt < max_retries - 1:
-                    continue
-                return False
-
-            # Save frame as JPEG
-            cv2.imwrite(str(output_path), frame, [cv2.IMWRITE_JPEG_QUALITY, 95])
-            return True
-
-        except Exception as e:
-            if attempt < max_retries - 1:
-                continue
-            print(f"  ✗ Error extracting frame from {video_path}: {e}")
-            return False
-
-    return False
-
-def get_next_frame_number(output_dir):
-    """Get the next available frame number based on existing files"""
-    existing_frames = list(Path(output_dir).glob("*.jpg"))
+def get_next_frame_number(output_dir: Path) -> int:
+    """获取基于现有文件的下一个可用帧编号"""
+    existing_frames = list(output_dir.glob("*.jpg"))
     if not existing_frames:
         return 0
 
-    # Extract numbers from filenames
     numbers = []
     for frame in existing_frames:
         try:
@@ -75,119 +39,93 @@ def get_next_frame_number(output_dir):
 
     return max(numbers) + 1 if numbers else 0
 
-def process_dl3dv_videos(start_number=0, max_videos=None):
+# ============================================================================
+# ✨ 核心处理函数：处理 DL3DV 图像序列
+# ============================================================================
+
+def process_dl3dv_images(start_number: int = 0, max_videos: Optional[int] = None) -> int:
     """
-    Process DL3DV videos and extract first frames
-
-    Args:
-        start_number: Starting number for frame naming
-        max_videos: Maximum number of videos to process
-
-    Returns:
-        int: Next available frame number
+    递归查找 DL3DV 场景下的第一帧 (frame_00001.png)，并复制到输出目录。
     """
-    print("\n=== Processing DL3DV Videos ===")
-
-    # Find all videos recursively
-    video_paths = []
-    if os.path.exists(DL3DV_DIR):
-        video_paths = sorted(list(Path(DL3DV_DIR).rglob("*.mp4")))
-    else:
+    print("\n=== Processing DL3DV First Frames (frame_00001.png) ===")
+    
+    dl3dv_path = Path(DL3DV_DIR)
+    if not dl3dv_path.exists():
         print(f"✗ DL3DV directory not found: {DL3DV_DIR}")
-        print("  Please run download_dl3dv.py first")
         return start_number
 
-    if not video_paths:
-        print(f"✗ No videos found in {DL3DV_DIR}")
+    # 1. 查找所有场景目录下的第一帧图像文件
+    first_frame_paths = list(dl3dv_path.rglob("frame_00001.png"))
+
+    # 按场景路径排序，以保证处理顺序一致性
+    first_frame_paths = sorted(first_frame_paths, key=lambda p: str(p.parent))
+
+    if not first_frame_paths:
+        print(f"✗ No first frame images (frame_00001.png) found in {DL3DV_DIR}")
+        print("请检查 DL3DV_DIR 是否设置正确，且子目录中存在 frame_00001.png 文件。")
         return start_number
 
-    # Limit number of videos
+    # 2. 实现断点续传（Resume Logic）
+    files_to_process = first_frame_paths
+    
+    # 如果 current_number > 0，则跳过前面已处理的文件。
+    if start_number > 0 and start_number < len(first_frame_paths):
+        # 假设文件是按序保存的，我们跳过前 start_number 个文件
+        files_to_process = first_frame_paths[start_number:]
+        print(f"Resume Mode: Skipping {start_number} already processed files.")
+    elif start_number >= len(first_frame_paths):
+        print("Resume Mode: All files appear to be processed.")
+        return start_number
+
+    # 3. 限制数量并复制文件
     if max_videos:
-        video_paths = video_paths[:max_videos]
+        files_to_process = files_to_process[:max_videos]
 
-    print(f"Found {len(video_paths)} DL3DV videos")
+    print(f"Found {len(first_frame_paths)} total frames. Processing {len(files_to_process)} frames.")
 
-    # Process videos
     current_number = start_number
     successful = 0
-    failed = 0
-
-    for video_path in tqdm(video_paths, desc="Extracting DL3DV frames"):
+    
+    for image_path in tqdm(files_to_process, desc="Copying DL3DV first frames"):
+        # 统一保存为 .jpg 格式
         output_path = Path(OUTPUT_DIR) / f"{current_number}.jpg"
 
-        if extract_first_frame(video_path, output_path):
+        try:
+            # 使用 cv2 读取 PNG 图像 (cv2.imread 可以正确处理 PNG 透明度)
+            frame = cv2.imread(str(image_path))
+            
+            if frame is None:
+                 raise ValueError(f"Failed to read image.")
+                 
+            # 统一保存为 JPEG 格式
+            cv2.imwrite(str(output_path), frame, [cv2.IMWRITE_JPEG_QUALITY, 95])
+            
             successful += 1
             current_number += 1
-        else:
-            failed += 1
 
-    print(f"✓ DL3DV: Extracted {successful} frames, {failed} failed")
+        except Exception as e:
+            print(f"  ✗ Error processing scene {image_path.parent.name} ({image_path.name}): {e}")
+            continue
+
+    print(f"✓ DL3DV: Copied {successful} frames")
     return current_number
 
-def process_realestate_videos(start_number=0, max_videos=None):
-    """
-    Process RealEstate10K videos and extract first frames
-
-    Args:
-        start_number: Starting number for frame naming
-        max_videos: Maximum number of videos to process
-
-    Returns:
-        int: Next available frame number
-    """
-    print("\n=== Processing RealEstate10K Videos ===")
-
-    # Find all videos
-    if not os.path.exists(REALESTATE_DIR):
-        print(f"✗ RealEstate10K directory not found: {REALESTATE_DIR}")
-        print("  Please run download_realestate10k.py first")
-        return start_number
-
-    video_paths = sorted(list(Path(REALESTATE_DIR).glob("*.mp4")))
-
-    if not video_paths:
-        print(f"✗ No videos found in {REALESTATE_DIR}")
-        return start_number
-
-    # Limit number of videos
-    if max_videos:
-        video_paths = video_paths[:max_videos]
-
-    print(f"Found {len(video_paths)} RealEstate10K videos")
-
-    # Process videos
-    current_number = start_number
-    successful = 0
-    failed = 0
-
-    for video_path in tqdm(video_paths, desc="Extracting RealEstate frames"):
-        output_path = Path(OUTPUT_DIR) / f"{current_number}.jpg"
-
-        if extract_first_frame(video_path, output_path):
-            successful += 1
-            current_number += 1
-        else:
-            failed += 1
-
-    print(f"✓ RealEstate10K: Extracted {successful} frames, {failed} failed")
-    return current_number
+# ============================================================================
+# 主函数
+# ============================================================================
 
 def main():
+    # 修正：将 global 声明放在函数开头（虽然我们更推荐避免使用 global，但这里为了兼容原结构）
+    global OUTPUT_DIR 
+    
     parser = argparse.ArgumentParser(
-        description="Extract first frames from DL3DV and RealEstate10K datasets"
-    )
-    parser.add_argument(
-        "--datasets",
-        nargs="+",
-        choices=["dl3dv", "realestate", "all"],
-        default=["all"],
-        help="Which datasets to process"
+        description="Extract first frames from DL3DV dataset"
     )
     parser.add_argument(
         "--max_videos_per_dataset",
         type=int,
         default=None,
-        help="Maximum number of videos per dataset (default: all)"
+        help="Maximum number of scenes/frames to process"
     )
     parser.add_argument(
         "--clear_existing",
@@ -203,48 +141,37 @@ def main():
 
     args = parser.parse_args()
 
-    # Update output directory
-    global OUTPUT_DIR
+    # 更新全局输出目录
     OUTPUT_DIR = args.output_dir
+    output_path = Path(OUTPUT_DIR)
 
-    # Create output directory
-    Path(OUTPUT_DIR).mkdir(parents=True, exist_ok=True)
+    # 创建输出目录
+    output_path.mkdir(parents=True, exist_ok=True)
 
-    # Clear existing frames if requested
+    # 清除现有帧
     if args.clear_existing:
         print(f"Clearing existing frames in {OUTPUT_DIR}...")
-        for frame in Path(OUTPUT_DIR).glob("*.jpg"):
+        for frame in output_path.glob("*.jpg"):
             frame.unlink()
         print("✓ Cleared existing frames")
         current_number = 0
     else:
-        # Get next available number
-        current_number = get_next_frame_number(OUTPUT_DIR)
+        # 获取下一个可用编号
+        current_number = get_next_frame_number(output_path)
         print(f"Starting from frame number: {current_number}")
 
-    # Process datasets
-    datasets = args.datasets
-    if "all" in datasets:
-        datasets = ["dl3dv", "realestate"]
+    # 执行处理
+    final_number = process_dl3dv_images(
+        start_number=current_number,
+        max_videos=args.max_videos_per_dataset
+    )
 
-    if "dl3dv" in datasets:
-        current_number = process_dl3dv_videos(
-            start_number=current_number,
-            max_videos=args.max_videos_per_dataset
-        )
-
-    if "realestate" in datasets:
-        current_number = process_realestate_videos(
-            start_number=current_number,
-            max_videos=args.max_videos_per_dataset
-        )
-
-    # Summary
-    total_frames = len(list(Path(OUTPUT_DIR).glob("*.jpg")))
+    # 总结
+    total_frames = len(list(output_path.glob("*.jpg")))
     print(f"\n{'='*50}")
     print(f"✓ Extraction complete!")
     print(f"✓ Total frames in {OUTPUT_DIR}: {total_frames}")
-    print(f"✓ Frame numbers: 0 to {current_number - 1}")
+    print(f"✓ Frame numbers: 0 to {final_number - 1}")
     print(f"{'='*50}\n")
 
 if __name__ == "__main__":

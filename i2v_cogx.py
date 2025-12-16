@@ -1,3 +1,18 @@
+import os
+import sys
+
+os.environ["CUDA_VISIBLE_DEVICES"] = "1,2" 
+print(f"DEBUG: CUDA_VISIBLE_DEVICES set to: {os.environ['CUDA_VISIBLE_DEVICES']}")
+
+CUDA_BASE_PATH = "/usr/local/cuda-12.4" 
+
+current_ld_library_path = os.environ.get('LD_LIBRARY_PATH', '')
+if CUDA_BASE_PATH not in current_ld_library_path:
+    os.environ['LD_LIBRARY_PATH'] = f"{CUDA_BASE_PATH}/lib64:{current_ld_library_path}"
+    
+print(f"DEBUG: LD_LIBRARY_PATH is now: {os.environ['LD_LIBRARY_PATH']}")
+
+
 import json
 from pathlib import Path
 import torch
@@ -13,9 +28,9 @@ from typing import Dict, Any, List, Optional
 # ----------------------------
 # PATHS & CONFIGURATION
 # ----------------------------
-PROMPT_JSON = "generated_prompts.json"
-OUTPUT_DIR = "../data_cog"  # 视频输出根目录
-OUTPUT_JSON = "../data_cog/cog_generation_results.json"  # JSON 结果文件
+PROMPT_JSON = "../dataset/generated_prompts.json"
+OUTPUT_DIR = "../dataset"  # 视频输出根目录
+OUTPUT_JSON = "../dataset/cog_generation_results.json"  # JSON 结果文件
 
 # 配置
 K = 3               # 每个 Prompt 目标生成 K 个视频 (内部循环 K 次)
