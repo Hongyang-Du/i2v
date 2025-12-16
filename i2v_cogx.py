@@ -1,8 +1,8 @@
 import os
 import sys
 
-os.environ["CUDA_VISIBLE_DEVICES"] = "1,2" 
-print(f"DEBUG: CUDA_VISIBLE_DEVICES set to: {os.environ['CUDA_VISIBLE_DEVICES']}")
+# os.environ["CUDA_VISIBLE_DEVICES"] = "1,2" 
+# print(f"DEBUG: CUDA_VISIBLE_DEVICES set to: {os.environ['CUDA_VISIBLE_DEVICES']}")
 
 CUDA_BASE_PATH = "/usr/local/cuda-12.4" 
 
