@@ -29,7 +29,7 @@ from typing import Dict, Any, List, Optional
 # PATHS & CONFIGURATION
 # ----------------------------
 PROMPT_JSON = "../dataset/generated_prompts.json"
-OUTPUT_DIR = "../dataset"  # 视频输出根目录
+OUTPUT_DIR = "../dataset/videos"  # 视频输出根目录
 OUTPUT_JSON = "../dataset/cog_generation_results.json"  # JSON 结果文件
 
 # 配置

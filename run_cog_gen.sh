@@ -6,7 +6,7 @@
 FIXED_GPUS="1 2"
 
 # 任务设置
-ENV_NAME="cogvideo" 
+ENV_NAME="video3d-dpo" 
 PROJECT_DIR="/home/junjie/i2v"
 # ----------------------------------------
 
